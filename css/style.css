@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://i.imgur.com/dhnoIds.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#root {
+    display: auto;
+    min-height: 100vh;
+    grid-template-rows: min-content min-content auto min-content;
+    grid-template-areas: "navigation" "header" "content" "footer";
+}
