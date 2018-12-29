@@ -51,14 +51,17 @@ body {
     height: 220px;
     width: 600px;
     border: none;
+    
 }
 
 .button:hover {
     background-color: blueviolet;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button:active {
     background-color: blueviolet;
+    transform: translateY(4px);
 }
 #close-image{
     padding: 0 0 0 0;
