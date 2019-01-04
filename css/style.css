@@ -38,19 +38,18 @@ body {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    padding: 10px;
-    position: absolute;
-    left: 25%;
-    border: none;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .button {
     height: 220px;
     width: 600px;
     border: none;
+    max-width: 100%;
+    text-align: center;
     
 }
 
