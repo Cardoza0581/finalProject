@@ -171,7 +171,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../AppData/Roaming/npm-cache/_npx/4236/node_modules/parcel/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../AppData/Roaming/npm-cache/_npx/4236/node_modules/parcel/src/builtins/bundle-url.js"}],"fish.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
