@@ -1,7 +1,7 @@
 import { html, render } from 'lit-html';
 export default function contact(){
     return html`
-    </div>
+    
        <div id="footer">
             <div class="container">
                     <ul><strong>Contact Information

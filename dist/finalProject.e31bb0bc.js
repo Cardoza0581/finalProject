@@ -1704,29 +1704,7 @@ exports.html = html;
 const svg = (strings, ...values) => new _templateResult.SVGTemplateResult(strings, values, 'svg', _defaultTemplateProcessor.defaultTemplateProcessor);
 
 exports.svg = svg;
-},{"./lib/default-template-processor.js":"node_modules/lit-html/lib/default-template-processor.js","./lib/template-result.js":"node_modules/lit-html/lib/template-result.js","./lib/directive.js":"node_modules/lit-html/lib/directive.js","./lib/dom.js":"node_modules/lit-html/lib/dom.js","./lib/part.js":"node_modules/lit-html/lib/part.js","./lib/parts.js":"node_modules/lit-html/lib/parts.js","./lib/render.js":"node_modules/lit-html/lib/render.js","./lib/template-factory.js":"node_modules/lit-html/lib/template-factory.js","./lib/template-instance.js":"node_modules/lit-html/lib/template-instance.js","./lib/template.js":"node_modules/lit-html/lib/template.js"}],"src/fish.js":[function(require,module,exports) {
-"use strict";
-
-var _litHtml = require("lit-html");
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral([" \n    <div class=\"fish-container\">\n    <div id=\"navigation\">\n    <p><strong>Below are a list of the most popular Game Fish and Non Game Fish for Amateur Fishermen located in Missouri. Clicking on the image will take you to\n         the Missouri Department of Conservation for more information on the species of fish.</strong></p>\n         \n   <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/black-bass\" target=\"_blank\"> \n    <img src=\"Photos for School ProjectFinal black-bass.jpg\" id=\"bass-image\" class=\"button\"alt=\"bass\">Largemouth Bass</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/bass-temperate\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal striped-bass.png\" id=\"striped-bass\" class=\"button\"alt=\"striped-bass\">Striped Bass</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/goggle-eye-rock-bass-and-warmouth\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal northern_rock_bass.jpg\" id=\"rock-bass\" class=\"button\"alt=\"Google-eyed Bass\">Google-eyed</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/catfish\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal catfish.jpg\" id=\"catfish-image\" class=\"button\"alt=\"catfish\">Catfish</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/trout\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal rainbow-trout.png\" id=\"trout-image\" class=\"button\" alt=\"trout\">Trout</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/sunfish\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal sunfish.jpg\" id=\"panfish-image\" class=\"button\" alt=\"panfish\">Sunfish</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/crappie\" target=\"_blank\">\n    <img src=\"Photos for School ProjectFinal crappie.jpg\" id=\"crappie-image\" class=\"button\" alt=\"crappie\">Crappie</a></button>\n</div>\n</div>\n    "], [" \n    <div class=\"fish-container\">\n    <div id=\"navigation\">\n    <p><strong>Below are a list of the most popular Game Fish and Non Game Fish for Amateur Fishermen located in Missouri. Clicking on the image will take you to\n         the Missouri Department of Conservation for more information on the species of fish.</strong></p>\n         \n   <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/black-bass\" target=\"_blank\"> \n    <img src=\"Photos for School Project\\Final black-bass.jpg\" id=\"bass-image\" class=\"button\"alt=\"bass\">Largemouth Bass</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/bass-temperate\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final striped-bass.png\" id=\"striped-bass\" class=\"button\"alt=\"striped-bass\">Striped Bass</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/goggle-eye-rock-bass-and-warmouth\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final northern_rock_bass.jpg\" id=\"rock-bass\" class=\"button\"alt=\"Google-eyed Bass\">Google-eyed</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/catfish\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final catfish.jpg\" id=\"catfish-image\" class=\"button\"alt=\"catfish\">Catfish</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/trout\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final rainbow-trout.png\" id=\"trout-image\" class=\"button\" alt=\"trout\">Trout</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/sunfish\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final sunfish.jpg\" id=\"panfish-image\" class=\"button\" alt=\"panfish\">Sunfish</a></button>\n    \n    <button id=\"close-image\"><a href=\"https://huntfish.mdc.mo.gov/fishing/species/crappie\" target=\"_blank\">\n    <img src=\"Photos for School Project\\Final crappie.jpg\" id=\"crappie-image\" class=\"button\" alt=\"crappie\">Crappie</a></button>\n</div>\n</div>\n    "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-function fish() {
-  return (0, _litHtml.html)(_templateObject());
-}
-
-(0, _litHtml.render)(fish(), root);
-},{"lit-html":"node_modules/lit-html/lit-html.js"}],"src/contact.js":[function(require,module,exports) {
+},{"./lib/default-template-processor.js":"node_modules/lit-html/lib/default-template-processor.js","./lib/template-result.js":"node_modules/lit-html/lib/template-result.js","./lib/directive.js":"node_modules/lit-html/lib/directive.js","./lib/dom.js":"node_modules/lit-html/lib/dom.js","./lib/part.js":"node_modules/lit-html/lib/part.js","./lib/parts.js":"node_modules/lit-html/lib/parts.js","./lib/render.js":"node_modules/lit-html/lib/render.js","./lib/template-factory.js":"node_modules/lit-html/lib/template-factory.js","./lib/template-instance.js":"node_modules/lit-html/lib/template-instance.js","./lib/template.js":"node_modules/lit-html/lib/template.js"}],"src/contact.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1737,7 +1715,7 @@ exports.default = contact;
 var _litHtml = require("lit-html");
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    </div>\n       <div id=\"footer\">\n            <div class=\"container\">\n                    <ul><strong>Contact Information\n                            <li><i class=\"fab fa-github\"></i>\n                              <a href=\"https://github.com/Cardoza0581\">Github</a></li>\n                            <li><i class=\"fas fa-at\"></i>\n                              <a href=\"Mailto: cardoza0581@hotmail.com\">Email</a></li>\n                            <li><i class=\"fab fa-twitter\"></i>\n                              <a href=\"https://twitter.com/theyardgnome\">Twitter</a></li>\n                            </strong>\n                            </ul>>\n                </div>\n    </div>\n    "]);
+  var data = _taggedTemplateLiteral(["\n    \n       <div id=\"footer\">\n            <div class=\"container\">\n                    <ul><strong>Contact Information\n                            <li><i class=\"fab fa-github\"></i>\n                              <a href=\"https://github.com/Cardoza0581\">Github</a></li>\n                            <li><i class=\"fas fa-at\"></i>\n                              <a href=\"Mailto: cardoza0581@hotmail.com\">Email</a></li>\n                            <li><i class=\"fab fa-twitter\"></i>\n                              <a href=\"https://twitter.com/theyardgnome\">Twitter</a></li>\n                            </strong>\n                            </ul>>\n                </div>\n    </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1753,8 +1731,6 @@ function contact() {
 }
 },{"lit-html":"node_modules/lit-html/lit-html.js"}],"index.js":[function(require,module,exports) {
 "use strict";
-
-var _fish = _interopRequireDefault(require("./src/fish"));
 
 var _contact = _interopRequireDefault(require("./src/contact"));
 
@@ -1781,7 +1757,7 @@ function myRender() {
 }
 
 (0, _litHtml.render)(myRender(), root);
-},{"./src/fish":"src/fish.js","./src/contact":"src/contact.js","lit-html":"node_modules/lit-html/lit-html.js"}],"../../../AppData/Roaming/npm-cache/_npx/14880/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./src/contact":"src/contact.js","lit-html":"node_modules/lit-html/lit-html.js"}],"../../../AppData/Roaming/npm-cache/_npx/14168/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1808,7 +1784,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64864" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54351" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -1950,5 +1926,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/14880/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/14168/node_modules/parcel/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/finalProject.e31bb0bc.map

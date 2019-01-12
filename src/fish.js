@@ -7,25 +7,25 @@ function fish(){
          the Missouri Department of Conservation for more information on the species of fish.</strong></p>
          
    <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/black-bass" target="_blank"> 
-    <img src="Photos for School Project\Final black-bass.jpg" id="bass-image" class="button"alt="bass">Largemouth Bass</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20black-bass.jpg" id="bass-image" class="button"alt="bass">Largemouth Bass</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/bass-temperate" target="_blank">
-    <img src="Photos for School Project\Final striped-bass.png" id="striped-bass" class="button"alt="striped-bass">Striped Bass</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20striped-bass.png" id="striped-bass" class="button"alt="striped-bass">Striped Bass</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/goggle-eye-rock-bass-and-warmouth" target="_blank">
-    <img src="Photos for School Project\Final northern_rock_bass.jpg" id="rock-bass" class="button"alt="Google-eyed Bass">Google-eyed</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20northern_rock_bass.jpg" id="rock-bass" class="button"alt="Google-eyed Bass">Google-eyed</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/catfish" target="_blank">
-    <img src="Photos for School Project\Final catfish.jpg" id="catfish-image" class="button"alt="catfish">Catfish</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20catfish.jpg" id="catfish-image" class="button"alt="catfish">Catfish</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/trout" target="_blank">
-    <img src="/src/Photos for School Project\Final rainbow-trout.png") id="trout-image" class="button" alt="trout">Trout</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20rainbow-trout.png" id="trout-image" class="button" alt="trout">Trout</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/sunfish" target="_blank">
-    <img src="Photos for School Project\Final sunfish.jpg" id="panfish-image" class="button" alt="panfish">Sunfish</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20sunfish.jpg" class="button" alt="panfish">Sunfish</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/crappie" target="_blank">
-    <img src="/Photos for School Project\Final crappie.jpg" id="crappie-image" class="button" alt="crappie">Crappie</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20crappie.jpg" id="crappie-image" class="button" alt="crappie">Crappie</a></button>
 </div>
 </div>
     `;
