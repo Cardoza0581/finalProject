@@ -5,6 +5,7 @@ img{
     align-content: center;
     border: 100vw;
     background-color: white;
+    
 
 }
 .fish-container{
@@ -24,4 +25,39 @@ p{
     color:hotpink;
     font-weight: 900;
     font-size: 30px;
+}
+#bass-image{
+    display: flex;
+    margin-left: auto;
+    align-items: center;   
+}
+#striped-bass{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#rock-bass{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#catfish-image{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#trout-image{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#panfish-image{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#crappie-image{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
 }
