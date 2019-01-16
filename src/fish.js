@@ -1,5 +1,5 @@
-import { html, myRender } from 'lit-html';
-function fish(){
+import {html, myRender} from 'lit-html';
+function fish() {
     return html` 
     <div class="fish-container">
     <div id="navigation">
@@ -31,9 +31,9 @@ function fish(){
     `;
 }
 
-function myRender(){
+function myRender() {
     return html`
     ${fish()}
     `;
 }
-render(myRender(),root);
+render(myRender(), root);
