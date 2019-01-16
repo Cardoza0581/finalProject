@@ -1,4 +1,4 @@
-import {html, myRender} from 'lit-html';
+import {html, render} from 'lit-html';
 function fish() {
     return html` 
     <div class="fish-container">
