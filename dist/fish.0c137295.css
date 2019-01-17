@@ -1,63 +1,71 @@
-img{
+img {
     height: 250px;
     width: 300px;
     display: inline;
     align-content: center;
     border: 100vw;
     background-color: white;
-    
-
 }
-.fish-container{
+
+.fish-container {
     text-align: center;
 }
-body{
+
+body {
     background-image: url(https://i.imgur.com/dhnoIds.jpg);
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-p{
+
+p {
     background-color: rgba(0, 0, 0, 0.527)
 }
+
 #navigation {
-    color:hotpink;
+    color: hotpink;
     font-weight: 900;
     font-size: 30px;
 }
-#bass-image{
-    display: flex;
-    margin-left: auto;
-    align-items: center;   
-}
-#striped-bass{
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    padding: 5px;
-}
-#rock-bass{
+
+#bass-image {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
-#catfish-image{
+
+#striped-bass {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
-#trout-image{
+
+#rock-bass {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
-#panfish-image{
+
+#catfish-image {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
-#crappie-image{
+
+#trout-image {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+#panfish-image {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+#crappie-image {
     display: flex;
     margin-left: auto;
     align-items: center;
