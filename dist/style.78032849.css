@@ -20,6 +20,7 @@ body {
     border-radius: 0;
     height: 220px;
     width: 600px;
+    padding: 5px;
 }
 
 #lure-image {
@@ -28,6 +29,7 @@ body {
     border-radius: 0;
     height: 220px;
     width: 600px;
+    padding: 5px;
 }
 
 #knot-image {
@@ -36,6 +38,7 @@ body {
     border-radius: 0;
     height: 220px;
     width: 600px;
+    padding: 5px;
 }
 
 .grid-container {
@@ -74,4 +77,7 @@ body {
 }
 p{
     background-color: rgba(0, 0, 0, 0.527)
+}
+.navigation-container{
+    text-align: center;
 }

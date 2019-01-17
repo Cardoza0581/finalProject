@@ -22,7 +22,7 @@ function fish() {
     <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20rainbow-trout.png" id="trout-image" class="button" alt="trout">Trout</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/sunfish" target="_blank">
-    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20sunfish.jpg" class="button" alt="panfish">Sunfish</a></button>
+    <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20sunfish.jpg" id="panfish-image" class="button" alt="panfish">Sunfish</a></button>
     
     <button id="close-image"><a href="https://huntfish.mdc.mo.gov/fishing/species/crappie" target="_blank">
     <img src="https://raw.githubusercontent.com/Cardoza0581/finalProject/master/src/Photos%20for%20School%20Project/Final%20crappie.jpg" id="crappie-image" class="button" alt="crappie">Crappie</a></button>
