@@ -81,3 +81,9 @@ p{
 .navigation-container{
     text-align: center;
 }
+#footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

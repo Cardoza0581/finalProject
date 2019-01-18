@@ -1715,7 +1715,7 @@ exports.default = contact;
 var _litHtml = require("lit-html");
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    \n       <div id=\"footer\">\n            <div class=\"container\">\n                    <ul><strong>Contact Information\n                            <li><i class=\"fab fa-github\"></i>\n                              <a href=\"https://github.com/Cardoza0581\">Github</a></li>\n                            <li><i class=\"fas fa-at\"></i>\n                              <a href=\"Mailto: cardoza0581@hotmail.com\">Email</a></li>\n                            <li><i class=\"fab fa-twitter\"></i>\n                              <a href=\"https://twitter.com/theyardgnome\">Twitter</a></li>\n                            </strong>\n                            </ul>>\n                </div>\n    </div>\n    "]);
+  var data = _taggedTemplateLiteral(["\n    \n       <div id=\"footer\">\n            <div class=\"container\">\n                    <ul><strong>Contact Information\n                            <li><i class=\"fab fa-github\"></i>\n                              <a href=\"https://github.com/Cardoza0581\">Github</a></li>\n                            <li><i class=\"fas fa-at\"></i>\n                              <a href=\"Mailto: cardoza0581@hotmail.com\">Email</a></li>\n                            <li><i class=\"fab fa-twitter\"></i>\n                              <a href=\"https://twitter.com/theyardgnome\">Twitter</a></li>\n                            </strong>\n                            </ul>>\n                </div>\n     </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;

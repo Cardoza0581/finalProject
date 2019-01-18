@@ -1,6 +1,6 @@
 import { html, render } from 'lit-html';
-export default function contact(){
-    return html`
+export default function contact() {
+  return html`
     
        <div id="footer">
             <div class="container">
@@ -14,6 +14,6 @@ export default function contact(){
                             </strong>
                             </ul>>
                 </div>
-    </div>
+     </div>
     `;
 }
